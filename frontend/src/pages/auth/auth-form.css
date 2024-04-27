@@ -1,0 +1,80 @@
+.form-container {
+  width: 100%;
+  margin: 0 auto 4rem auto;
+}
+
+.form-container label {
+  font-weight: 600;
+}
+
+.form-container form {
+  margin: 0 auto var(--space-6) auto;
+}
+
+.form-container form div {
+  width: 100%;
+  border: none;
+}
+
+.form-container .btn {
+  width: 100%;
+  margin: var(--space-6) auto var(--space-2) auto;
+}
+
+.country-state-city-input {
+  font: inherit;
+  padding: var(--space-4);
+  border-radius: var(--border-radius-small);
+  border: none;
+  width: 100%;
+  margin-bottom: var(--space-4);
+}
+
+.form-container form div div div {
+  position: relative;
+  padding: 0;
+}
+
+.form-container form div div {
+  position: relative;
+  margin-bottom: var(--space-6);
+}
+.form-container form div div div input {
+  font: inherit;
+  padding: var(--space-4);
+  border-radius: var(--border-radius-small);
+  border: none;
+  width: 100%;
+  margin-bottom: 0;
+}
+
+.form-container form div div div {
+  display: block;
+  text-align: center;
+  padding: var(--space-2) 0;
+  color: var(--color-gray-300);
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.form-container form div div .stdropdown-item {
+  padding-bottom: var(--space-2);
+}
+
+#country-state-city label {
+  margin: 0;
+}
+
+#country-state-city label:nth-child(1),
+#country-at-first {
+  margin-top: calc(var(--space-6) + 3rem);
+}
+
+#address-label {
+  margin-top: 0;
+  padding-bottom: var(--space-2);
+}
+
+#password-label {
+  margin-top: calc(var(--space-6) + 3rem);
+}

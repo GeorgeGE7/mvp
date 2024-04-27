@@ -1,0 +1,13 @@
+#category-not-found {
+  font-size: 1.5rem;
+  margin-bottom: 1.3rem;
+  font-weight: 500;
+}
+
+#category-not-found span {
+  font-weight: bold;
+}
+
+.category-not-found-link {
+  font-weight: bold;
+}

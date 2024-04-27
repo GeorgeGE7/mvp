@@ -1,0 +1,13 @@
+#manage-product-title {
+  display: flex;
+  align-items: center;
+}
+#manage-product-title p {
+  margin-left: 1rem;
+}
+
+@media (min-width: 55rem) {
+  #product-info {
+    text-align: left;
+  }
+}

@@ -1,0 +1,140 @@
+.profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#delete-profile-loader-container{
+  display: flex;
+  justify-content: center;
+}
+
+.profile-header {
+  width: 100%;
+  height: 30rem;
+  padding: var(--space-6);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: var(--color-gray-300);
+  border-radius: var(--space-6);
+}
+
+.profile-photo-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.profile-image-wrapper {
+  /* width: 10rem; */
+  height: 10rem;
+  text-align: center;
+}
+
+.profile-image {
+  object-fit: contain;
+  border-radius: 50%;
+  height: 5rem;
+  width: 5rem;
+  margin-bottom: var(--space-2);
+}
+
+.upload-profile-photo-label,
+.upload-profile-photo-btn {
+  /* background-color: var(--primary-color-400);
+  padding: 0.18rem 0.5rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  z-index: 10;
+  margin: 0.35rem auto;
+  font-size: 1.2rem; */
+  font-size: 1.2rem;
+  width: max-content;
+  margin: var(--space-2) auto;
+  font-weight: bold;
+  text-decoration: none;
+}
+.upload-profile-photo-input {
+  display: none;
+  visibility: hidden;
+}
+
+.profile-username {
+  margin-top: var(--space-8);
+}
+
+.profile-bio {
+  text-align: center;
+}
+
+.update-profile-btn {
+  font-size: 1.15rem;
+  font-weight: bold;
+}
+
+.profile-posts-list {
+  margin: 3rem auto;
+}
+
+#update-profile-btns {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.delete-account-btn {
+  width: max-content;
+  background-color: rgb(241, 80, 88);
+  color: var(--color-gray-400);
+  border: none;
+  font-size: 1.2rem;
+  border-radius: var(--space-6);
+  padding: var(--space-2) var(--space-6);
+  cursor: pointer;
+  margin: 3rem auto;
+}
+
+#orders-wishlist-container {
+  display: flex;
+  width: 100%;
+}
+
+#orders-wishlist-container hr {
+  margin: 2rem 1.5rem;
+}
+
+#orders-wishlist-container div {
+  width: 100%;
+}
+
+@media (max-width: 55rem) {
+  #orders-wishlist-container {
+    flex-direction: column;
+  }
+  #delete-profile-loader-container {
+    /* width: 100%; */
+    margin: 6rem auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+  }
+
+  #orders-wishlist-container hr {
+    margin: 0.7rem 1rem;
+  }
+
+  #update-profile-btns {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  #update-profile-btns button:nth-child(1) {
+    margin-bottom: 0.7rem;
+  }
+}

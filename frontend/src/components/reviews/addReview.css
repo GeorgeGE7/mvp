@@ -1,0 +1,25 @@
+form {
+  display: flex;
+  width: 100%;
+  margin: 0 auto 4rem 0;
+}
+
+label {
+  color: var(--color-gray-100);
+  display: block;
+  margin: var(--space-6) auto var(--space-2) auto;
+}
+
+input,
+textarea {
+  font: inherit;
+  padding: var(--space-4);
+  border-radius: var(--border-radius-small);
+  border: none;
+  width: 100%;
+  margin-bottom: var(--space-4);
+}
+
+textarea {
+  resize: vertical;
+}

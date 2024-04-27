@@ -1,0 +1,106 @@
+.update-profile {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.72);
+  z-index: 999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.update-profile-form {
+  width: 80%;
+  background-color: var(--color-gray-100);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: var(--space-6);
+  position: relative;
+  border-radius: 12px;
+  /*  */
+  margin: 0 auto;
+}
+
+.update-profile-form-close {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.2rem;
+  height: 2.2rem;
+  position: absolute;
+  top: 0;
+  right: 0;
+  color: var(--color-gray-100);
+  cursor: pointer;
+  font-size: 1.8rem;
+  margin: var(--space-4);
+  background-color: rgb(197, 24, 24);
+  border-radius: 50%;
+}
+
+.update-profile-h1 {
+  margin: var(--space-4) auto;
+  margin-bottom: calc(var(--space-4) * 2);
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: var(--color-gray-500);
+  text-align: center;
+}
+
+.update-profile-input,
+.update-profile-textarea {
+  width: 98%;
+  border-radius: 12px;
+  border: 1px solid gray;
+  padding: var(--space-4);
+  margin: var(--space-4) auto;
+  font-size: 1.25rem;
+}
+
+.update-profile-form-btn {
+  border-radius: 12px;
+  width: 98%;
+  font-size: 1.4rem;
+  margin: var(--space-4) auto;
+  margin-top: calc(var(--space-4) * 2);
+}
+
+@media (max-width: 60rem) {
+  .update-profile-form {
+    width: 90%;
+    padding: var(--space-4);
+  }
+  .update-profile-form-close {
+    width: 2rem;
+    height: 2rem;
+    font-size: 1.6rem;
+    margin: var(--space-2);
+  }
+  
+  .update-profile-h1 {
+    margin: var(--space-2) auto;
+    margin-bottom: calc(var(--space-2) * 1.5);
+    font-size: 1.37rem;
+    font-weight: 600;
+  }
+  
+  .update-profile-input,
+  .update-profile-textarea {
+    padding: var(--space-4);
+    margin: var(--space-2) auto;
+    font-size: 1rem;
+  }
+  
+  .update-profile-form-btn {
+    border-radius: 12px;
+    width: 98%;
+    font-size: 1.2rem;
+    margin: var(--space-2) auto;
+    margin-top: calc(var(--space-2) * 2);
+  }
+  
+}
